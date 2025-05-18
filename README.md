@@ -1,2 +1,4 @@
 # AC-Power-Flow-Calculation-Program-for-Arbitrary-Transmission-Network-Structure
 This is a Newton-Raphson-Fast-Decoupled-based Power Flow Calculation Program for Arbitrary Transmission Network, with short-circuited cases considered. The program has remarkable promotion potential, and can be applied to any network structure, with arbitrary PQ-PV node designation.
+There are two scripts here, you only need to run main_code.py, and it should show power flow calculation results and short circuited case(Node 2 and 16 with three-phase connection to the ground) results.
+Attention that short-circuited case results are based on revised power flow calculation results(included in the excel attatched), which is different from the printed ones when runned. Revisions include: using average V and angle value as the ultimate power flow results, and deriving Pij and Qij at the front of a branch through the revised V and angle values.
