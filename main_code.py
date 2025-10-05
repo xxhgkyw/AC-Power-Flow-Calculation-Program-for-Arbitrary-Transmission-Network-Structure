@@ -1,6 +1,7 @@
 # 尝试编写通用的交流潮流计算程序,目前以10机39节点为例
 # SB=100MVA,需要将功率换算为p.u.;而V和Z直接按p.u.给出了
 # 取31号节点为平衡节点, 其余所有节点都视作PQ节点
+# 2025.10.5最新注释：以后如果加入Sij_limit矩阵来刻画支路潮流上限，应该在最后加上, dtype=float
 import numpy as np
 import pandas as pd
 import supplement_file
